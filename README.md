@@ -12,7 +12,7 @@ NOTA: Los archivos llamados "Empty File", se generaron para la creación de las 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-La carpeta "Training Dataset", contiene los archivos descargables de los arreglos numpy de los puntos del dominio del problema que se usaron para entrenar la PINN del trabajo: "Redes Neuronales Informadas por la Física para la Resolución de EDPs No Lineales: Un Caso de Estudio con el Problema Bidimensional Lid-Driven Cavity" (por si alguien desea utilizar los mismos datos obtenidos que fueron usados en este trabajo)
+La carpeta "Training Dataset", contiene los archivos descargables de los arreglos numpy de los puntos del dominio del problema que se usaron para entrenar la PINN del trabajo: "Redes Neuronales Informadas por la Física para la Resolución de EDPs No Lineales: Un Caso de Estudio con el Problema Bidimensional Lid-Driven Cavity" (por si alguien desea utilizar los mismos datos de entrada que fueron usados en este trabajo).
 
 xy_train.npy: Son las coordenadas (x,y) de los puntos en el interior del dominio.
 xy_up.npy: Son las coordenadas (x,y) de los puntos en la frontera superior del dominio
