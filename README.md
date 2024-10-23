@@ -44,4 +44,4 @@ El enfoque de "redes neuronales informadas por la física" (PINN), fue presetado
 
 Los trabajos anteriores fueron referencias importantes para el desarrollo de este proyecto, por eso les doy credito a ellos e INVITO a quienes lean esto a revisar su trabajo.
 
-Extiendo un agradecimiento especial al profesor Alex Rojas, quíen me oriento a lo largo del proceso de implementación del codigo de la PINN (y en muchos otros aspectos del proyecto) presentado en este repositorio.
+Extiendo un agradecimiento especial al profesor Alex Rojas, quien me oriento a lo largo del proceso de implementación del codigo de la PINN (y en muchos otros aspectos del proyecto) presentado en este repositorio.
