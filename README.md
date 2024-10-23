@@ -8,7 +8,7 @@ Mientras que para imponer la función de activación "mish", se debe escribir "m
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-NOTA: Los archivos llamados "Empty File", se generaron para la creación de la carpeta. Como su nombre lo sugiere, solo son archivos vacios.
+NOTA: Los archivos llamados "Empty File", se generaron para la creación de las carpetas. Como su nombre lo sugiere, solo son archivos vacios.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
