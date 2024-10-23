@@ -20,4 +20,4 @@ Una vez descargados los archivos, pueden cargarse y asignarse a alguna variable,
   import numpy as np
   xy_interiores = np.load("xy_train.npy")
 
-Se determinó que el modelo con el mejor desempeño de todas las cofiguraciones que se consideraron, fue [2, 130, 130, 30, 80, 80, 3] con activación "mish". Si se desea usar este modelo ya optimizado sin tener que entrenar la red neuronal, se puede descargar el archivo "2 130 130 30 80 80 3_mish_better_model.weights.h5", el cual se puede usar para cargar en el modelo [2, 130, 130, 30, 80, 80, 3] con activación "mish", los parámetros ya optimizados.
+Se determinó que el modelo con el mejor desempeño de todas las cofiguraciones que se consideraron, fue el [2, 130, 130, 30, 80, 80, 3] con activación "mish". Si se desea usar este modelo ya optimizado sin tener que entrenar la red neuronal, se puede descargar el archivo "2 130 130 30 80 80 3_mish_better_model.weights.h5", el cual se puede usar para cargar en el modelo [2, 130, 130, 30, 80, 80, 3] con activación "mish", los parámetros ya optimizados.
