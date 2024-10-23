@@ -1,4 +1,4 @@
-En este repositorio comparto el codigo de la red neuronal informada por la física (PINN) que implementé en Python para solucionar el problema de referencia clasico "Lid-Driven Cavity 2D". 
+En este repositorio comparto el codigo de la red neuronal informada por la física (PINN) que implementé en Python para solucionar el problema de referencia clasico "Lid-Driven Cavity 2D", con número de Reynolds Re=100. 
 
 El archivo "lid-driven-cavity-2d-pinn-code.ipynb" es un notebook con el codigo de la red neuronal. Este codigo esta ajustado para que al ejecutarse se entrene de forma automatica el modelo [2, 130, 30] con función de activación "swish". Si se desea cambiar la configuración del modelo (número de capas o cantidad de neuronas por capa), basta con dirigirse a la ultima celda de ese mismo notebook y asignar a la variable "MODELO" una lista con la configuración de capas y neuronas que se desee. Por ejemplo: 
 
@@ -34,9 +34,9 @@ Una vez descargados los archivos, pueden cargarse y asignarse a alguna variable,
 
 -----------------------------------------------------------------------------------------
 
-Se determinó que el modelo con el mejor desempeño de todas las cofiguraciones que se consideraron, fue el [2, 130, 130, 30, 80, 80, 3] con activación "mish". Si se desea usar este modelo ya optimizado sin tener que entrenar la red neuronal, se puede descargar el archivo "2 130 130 30 80 80 3_mish_better_model.weights.h5", el cual se puede usar para cargar en el modelo [2, 130, 130, 30, 80, 80, 3] con activación "mish", los parámetros ya optimizados.
+Se determinó que el modelo con el mejor desempeño de todas las configuraciones que se consideraron, fue la red neuronal [2, 130, 130, 30, 80, 80, 3] con activación "mish". Si se desea usar este modelo ya optimizado sin tener que entrenar la red neuronal, se puede descargar el archivo "2 130 130 30 80 80 3_mish_better_model.weights.h5", el cual se puede utilizar para cargar en el modelo [2, 130, 130, 30, 80, 80, 3] con activación "mish", los parámetros ya optimizados.
 
-La carpeta "Reportes de Ghia", contiene dos archivos (.csv) que corresponden a los resultados que reportaron Ghia y colaboradores (1982), en su trabajo titulado "High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method".
+La carpeta "Reportes de Ghia", contiene dos archivos (.csv) que corresponden a los resultados de la velocidad horizontal y vertical que reportaron Ghia y colaboradores (1982), en su trabajo titulado "High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method".
 
 El archivo "Datos Ansys Fluent.csv" contiene la velocidad horizontal, la velocidad vertical, la presión y las coordenadas (x,y), del fluido en cada nodo de la malla simulada de tamaño (129x129).
 
