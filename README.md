@@ -6,6 +6,11 @@ MODELO = [2, 30, 30, 45, 3]  (NOTA: La lista siempre debe iniciar en 2 y termina
 
 Mientras que para imponer la función de activación "mish", se debe escribir "mish", en lugar de "swish" en la ultima celda del notebook "lid-driven-cavity-2d-pinn-code.ipynb".
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+NOTA: Los archivos llamados "Empty File", se generaron para la creación de la carpeta. Como su nombre lo sugiere, solo son archivos vacios.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 La carpeta "Training Dataset", contiene los archivos descargables de los arreglos numpy de los puntos del dominio del problema que se usaron para entrenar la PINN del trabajo: "Redes Neuronales Informadas por la Física para la Resolución de EDPs No Lineales: Un Caso de Estudio con el Problema Bidimensional Lid-Driven Cavity" (por si alguien desea utilizar los mismos datos obtenidos que fueron usados en este trabajo)
 
@@ -26,3 +31,7 @@ Una vez descargados los archivos, pueden cargarse y asignarse a alguna variable,
 -----------------------------------------------------------------------------------------
 
 Se determinó que el modelo con el mejor desempeño de todas las cofiguraciones que se consideraron, fue el [2, 130, 130, 30, 80, 80, 3] con activación "mish". Si se desea usar este modelo ya optimizado sin tener que entrenar la red neuronal, se puede descargar el archivo "2 130 130 30 80 80 3_mish_better_model.weights.h5", el cual se puede usar para cargar en el modelo [2, 130, 130, 30, 80, 80, 3] con activación "mish", los parámetros ya optimizados.
+
+La carpeta "Reportes de Ghia", contiene dos archivos (.csv) que corresponden a los resultados que reportaron Ghia y colaboradores (1982), en su trabajo titulado "High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method".
+
+El archivo "Datos Ansys Fluent.csv" contiene la velocidad horizontal, la velocidad vertical, la presión y las coordenadas (x,y), del fluido en cada nodo de la malla simulada de tamaño (129x129).
