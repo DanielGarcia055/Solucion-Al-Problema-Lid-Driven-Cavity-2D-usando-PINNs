@@ -1,4 +1,4 @@
-En este repositorio comparto el codigo de la red neuronal informada por la física (PINN) que implemente en Python para la solución del problema de referencia clasico "Lid-Driven Cavity 2D". 
+En este repositorio comparto el codigo de la red neuronal informada por la física (PINN) que implementé en Python para solucionar el problema de referencia clasico "Lid-Driven Cavity 2D". 
 
 El archivo "lid-driven-cavity-2d-pinn-code.ipynb" es un notebook con el codigo de la red neuronal. Este codigo esta ajustado para que al ejecutarse se entrene de forma automatica el modelo [2, 130, 30] con función de activación "swish". Si se desea cambiar la configuración del modelo (número de capas o cantidad de neuronas por capa), basta con dirigirse a la ultima celda de ese mismo notebook y asignar a la variable "MODELO" una lista con la configuración de capas y neuronas que se desee. Por ejemplo: 
 
