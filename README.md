@@ -35,3 +35,13 @@ Se determinó que el modelo con el mejor desempeño de todas las cofiguraciones 
 La carpeta "Reportes de Ghia", contiene dos archivos (.csv) que corresponden a los resultados que reportaron Ghia y colaboradores (1982), en su trabajo titulado "High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method".
 
 El archivo "Datos Ansys Fluent.csv" contiene la velocidad horizontal, la velocidad vertical, la presión y las coordenadas (x,y), del fluido en cada nodo de la malla simulada de tamaño (129x129).
+
+---------------------------------------------------------------------------------------
+
+CREDITOS Y AGRADECIMIENTOS:
+
+El enfoque de "redes neuronales informadas por la física" (PINN), fue presetado por primera vez en el trabajo de Raissi, Perdikaris y Karniadakis, titulado "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations". En este paper se presentó también un repositorio ( https://github.com/maziarraissi/PINNs ), donde los autores implementaron PINNs para resolver diferentes problemas de EDPs no lineales, entre ellos, "la ecuación de Schrodinger no nineal". Más tarde, la PINN que da solución a la ecuación de Schrodinger no lineal, se volvería a implementar exitosamente con la versión 2.0 de TensorFlow por el usuario "FMagani" en el repositorio: https://github.com/FMagnani/Physics_Informed_NeuralNetwork 
+
+Los trabajos anteriores fueron referencias importantes para el desarrollo de este proyecto, por eso les doy credito a ellos e INVITO a quienes lean esto a revisar su trabajo.
+
+Extiendo un agradecimiento especial al profesor Alex Rojas, quíen me oriento a lo largo del proceso de implementación del codigo de la PINN (y en muchos otros aspectos del proyecto), presentado en este repositorio.
